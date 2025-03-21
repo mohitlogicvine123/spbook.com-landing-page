@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Roboto', sans-serif; }
+        html, body {
+            scroll-behavior: smooth;
+        }
         @keyframes updown {
         0%, 100% {
             transform: translateY(0);
@@ -41,7 +44,7 @@
                 <li><a href="#why-choose" class="hover:text-[#FF9600] transition-all duration-300 ease-in-out">Why Choose Us</a></li>
                 <li><a href="#categories" class="hover:text-[#FF9600] transition-all duration-300 ease-in-out">Categories</a></li>
                 <li><a href="#happy-clients" class="hover:text-[#FF9600] transition-all duration-300 ease-in-out">Happy Clients</a></li>
-                <li><a href="#cta" class="hover:text-[#FF9600] transition-all duration-300 ease-in-out">Join Now</a></li>
+                <li><a href="#footer" class="hover:text-[#FF9600] transition-all duration-300 ease-in-out">Join Now</a></li>
             </ul>
             <a href="https://wa.me/917900320007" class="bg-[#25D366] text-white sm:px-4 px-2 py-2 rounded font-semibold flex items-center sm:gap-2 gap-1 max-sm:text-sm hover:bg-white hover:text-[#25D366] transition-all ease-in-out duration-300">
                 <img src="whatsapp.svg" alt="WhatsApp" class="transition-all sm:h-7 h-6 ease-in-out duration-300"> Join on WhatsApp
@@ -150,7 +153,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-[#0d0d0d] text-gray-400 text-center py-4">
+    <footer id="footer" class="bg-[#0d0d0d] text-gray-400 text-center py-4">
         <div class="container xl:w-[90%] mx-auto">
             <p class="max-sm:text-sm">&copy; 2025 spbook. All rights reserved.</p>
             <p class="mt-2 max-sm:text-sm">Play responsibly. 18+ Only.</p>
